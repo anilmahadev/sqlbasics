@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D23868CD189827240021641D /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23868CC189827240021641D /* EmailViewController.m */; };
 		D25303F81896C2E200AC4678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25303F71896C2E200AC4678 /* Foundation.framework */; };
 		D25303FA1896C2E200AC4678 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25303F91896C2E200AC4678 /* CoreGraphics.framework */; };
 		D25303FC1896C2E200AC4678 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25303FB1896C2E200AC4678 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D23868CB189827240021641D /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		D23868CC189827240021641D /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
 		D25303F41896C2E200AC4678 /* SQLBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25303F71896C2E200AC4678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D25303F91896C2E200AC4678 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +115,8 @@
 		D25303FD1896C2E200AC4678 /* SQLBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D23868CB189827240021641D /* EmailViewController.h */,
+				D23868CC189827240021641D /* EmailViewController.m */,
 				D25304061896C2E200AC4678 /* AppDelegate.h */,
 				D25304071896C2E200AC4678 /* AppDelegate.m */,
 				D25304091896C2E200AC4678 /* Main.storyboard */,
@@ -199,6 +204,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Anil Mahadev";
 				TargetAttributes = {
+					D25303F31896C2E200AC4678 = {
+						DevelopmentTeam = VGW7MBD669;
+					};
 					D25304141896C2E200AC4678 = {
 						TestTargetID = D25303F31896C2E200AC4678;
 					};
@@ -252,6 +260,7 @@
 				D253040E1896C2E200AC4678 /* ViewController.m in Sources */,
 				D25304081896C2E200AC4678 /* AppDelegate.m in Sources */,
 				D25304041896C2E200AC4678 /* main.m in Sources */,
+				D23868CD189827240021641D /* EmailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +314,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +352,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -378,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQLBasics/SQLBasics-Prefix.pch";
 				INFOPLIST_FILE = "SQLBasics/SQLBasics-Info.plist";
@@ -391,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQLBasics/SQLBasics-Prefix.pch";
 				INFOPLIST_FILE = "SQLBasics/SQLBasics-Info.plist";
@@ -402,7 +411,6 @@
 		D253042A1896C2E200AC4678 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLBasics.app/SQLBasics";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +433,6 @@
 		D253042B1896C2E200AC4678 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLBasics.app/SQLBasics";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +467,7 @@
 				D25304281896C2E200AC4678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D25304291896C2E200AC4678 /* Build configuration list for PBXNativeTarget "SQLBasicsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +476,7 @@
 				D253042B1896C2E200AC4678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
