@@ -21,6 +21,7 @@
 		D25304191896C2E200AC4678 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25303FB1896C2E200AC4678 /* UIKit.framework */; };
 		D25304211896C2E200AC4678 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D253041F1896C2E200AC4678 /* InfoPlist.strings */; };
 		D25304231896C2E200AC4678 /* SQLBasicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D25304221896C2E200AC4678 /* SQLBasicsTests.m */; };
+		D2B2BBA418996617005FB0FD /* ResourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B2BBA318996617005FB0FD /* ResourcesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D253041E1896C2E200AC4678 /* SQLBasicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLBasicsTests-Info.plist"; sourceTree = "<group>"; };
 		D25304201896C2E200AC4678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D25304221896C2E200AC4678 /* SQLBasicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLBasicsTests.m; sourceTree = "<group>"; };
+		D2B2BBA218996617005FB0FD /* ResourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesViewController.h; sourceTree = "<group>"; };
+		D2B2BBA318996617005FB0FD /* ResourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		D25303FD1896C2E200AC4678 /* SQLBasics */ = {
 			isa = PBXGroup;
 			children = (
+				D2B2BBA218996617005FB0FD /* ResourcesViewController.h */,
+				D2B2BBA318996617005FB0FD /* ResourcesViewController.m */,
 				D25304061896C2E200AC4678 /* AppDelegate.h */,
 				D25304071896C2E200AC4678 /* AppDelegate.m */,
 				D25304091896C2E200AC4678 /* Main.storyboard */,
@@ -254,6 +259,7 @@
 			files = (
 				D253040E1896C2E200AC4678 /* ViewController.m in Sources */,
 				D25304081896C2E200AC4678 /* AppDelegate.m in Sources */,
+				D2B2BBA418996617005FB0FD /* ResourcesViewController.m in Sources */,
 				D25304041896C2E200AC4678 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
