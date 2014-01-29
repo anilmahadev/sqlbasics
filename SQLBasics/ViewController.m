@@ -26,9 +26,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)btnEmail:(id)sender {
-    NSString *recipients = @"mailto:first@example.com?cc=second@example.com,third@example.com&subject=Hello from California!";
+    NSString *recipients = @"mailto:anil_mahadev@icloud.come?,&subject=SQL Basics Feedback!";
     
-    NSString *body = @"&body=It is raining in sunny California!";
+    NSString *body = @"&body=Dear SQL Basics User, we are delighted that you have chosen to share your vauable feedback with us. Please use this space to send us your thoughts on the app, improvments. We appreciate your time";
     
     NSString *email = [NSString stringWithFormat:@"%@%@", recipients, body];
     
@@ -37,6 +37,9 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:email]];
     
 }
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
