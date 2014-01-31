@@ -181,7 +181,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">What is SQL:                             
+                                <string key="text">What is SQL:                             
 
 SQL stands for Structured Query Language. The language that relational databases understand. 
 
@@ -193,7 +193,7 @@ Laboratory had developed during the 1970s.
 
  The acronym SEQUEL was later changed to SQL because "SEQUEL" was a trademark of the UK-based Hawker Siddeley aircraft 
 company.
-</mutableString>
+</string>
                                 <color key="textColor" red="0.0" green="0.25098040699958801" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -561,7 +561,7 @@ This time, we focus on the pure SQL key elements.
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">DML: Data Manipulation Language
+                                <string key="text">DML: Data Manipulation Language
 
 data manipulation language (DML) is a family of syntax elements similar to a computer programming language used for inserting, deleting and updating data in a database. 
 
@@ -631,7 +631,7 @@ We shall now explore the final DML for Read Only based activities - SELECT state
 DML: Data Manipulation Language  The SQL SELECT statement returns a result set of records from one or more tables. The SELECT statement has many optional clauses: WHERE specifies which rows to retrieve. GROUP BY groups rows sharing a property so that an aggregate function can be applied to each group. HAVING selects among the groups defined by the  GROUP BY clause. ORDER BY specifies an order in which to return the rows. AS provides an alias which can be used to temporarily rename tables or columns. 
  Syntax: SELECT TOP 10 * FROM T
 
-</mutableString>
+</string>
                                 <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -662,7 +662,7 @@ DML: Data Manipulation Language  The SQL SELECT statement returns a result s
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">DDL: Data Definition Language
+                                <string key="text">DDL: Data Definition Language
 
 The data definition language concept and name was first introduced in relation to the Codasyl 
 database model, where the schema of the database was written in a language syntax describing the records, fields, and sets of the user data model.[1] Later it was used to refer to a subset of Structured Query Language (SQL) for creating tables and constraints. SQL-92 introduced a schema manipulation language and schema information tables to query schemas. These information tables were specified as SQL/Schemata in SQL:2003. 
@@ -699,7 +699,7 @@ DROP objecttype objectname.
 DROP TABLE employees;
 
 We shall now explore DML statements in 
-Chapter 3.</mutableString>
+Chapter 3.</string>
                                 <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -771,7 +771,7 @@ We shall explore each type with an example in  chapters 5 and 6.</string>
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">An 'inner join' is a commonly used join operation used in applications.
+                                <string key="text">An 'inner join' is a commonly used join operation used in applications.
 Inner join creates a new result table by combining column values of two tables (A and B) based upon the join-predicate.
 
 SELECT *
@@ -809,7 +809,7 @@ SELECT *
 FROM employee FULL OUTER JOIN department
 ON employee.DepartmentID = department.DepartmentID;
 
-This completes the section on Joins.</mutableString>
+This completes the section on Joins.</string>
                                 <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -840,7 +840,7 @@ This completes the section on Joins.</mutableString>
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">CROSS JOIN and SELF JOINS
+                                <string key="text">CROSS JOIN and SELF JOINS
 
 CROSS JOIN returns the Cartesian product of rows from tables in the join. In other words, it will produce rows which combine each row from the first table with each row from the second table.
 
@@ -857,7 +857,7 @@ WHERE F.EmployeeID &lt; S.EmployeeID
 ORDER BY F.EmployeeID, S.EmployeeID;
 
 
-This completes our section on various SQL Basics. In the last chapter , we shall explore the different types of database objects.</mutableString>
+This completes our section on various SQL Basics. In the last chapter , we shall explore the different types of database objects.</string>
                                 <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
